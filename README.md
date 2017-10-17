@@ -4,6 +4,12 @@
 
 Static renders of the notebooks are available here, but simply download the repository and open using `jupyter notebook` for interactive versions.
 
+### Files
+
+![Polaron_effective_mass_theories.ipynb](Polaron_effective_mass_theories.ipynb) contains Julia codes to evaluate effective-mass theories (in the asymptotic variational limit, as presented by Feynman in the original 1955 paper). You can express Frohlich α values, mass renormalisations, Schultz polaron radius and volumes, exciton effective mass theory radius and spectra; summations with Bose-Einstein statistics over phonon modes to get specific heat capacities; Franck-Condon overtone spectrum from polaron variational solution; overlaid plots of polaron wavefunction and Schultz's definition of radius; some notes on the derivations in Schultz. 
+
+Additionally the codes used to generate data for Figure 2 using the ![PolaronMobility.jl](https://github.com/jarvist/PolaronMobility.jl) package are available. Here is a specific (October 2017) point in history, which reproduces the data for the publication figure: ![ThermalPathways.jl](https://github.com/jarvist/PolaronMobility.jl/blob/139795b49b72f2acb413abe4247e5fa158a037df/HalidePerovskites/ThermalPathways.jl).
+
 ### Publication
 
 _"Slow cooling of hot polarons in halide perovskite solar cells"_ by Jarvist M. Frost, Lucy D. Whalley and Aron Walsh (2017)
